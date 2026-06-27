@@ -123,10 +123,9 @@ traffic-accident-analysis-excel/
 ├── README.md
 ├── NYC Traffic Accident Analysis.xlsx
 ├── images/
-│   ├── dashboard.png
-│   ├── seasonal-trend-chart.png
-│   ├── weekday-hour-heatmap.png
-│   └── contributing-factors.png
+│   ├── Seasonal_Trend.png
+│   ├── Day_Hour_Heatmap.png
+│   └── Contributing_Factor_Bar_Charg.png
 
 ```
 
