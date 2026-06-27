@@ -1,82 +1,132 @@
-NYC Traffic Accident Analysis (Excel)
-Project Overview
+# NYC Traffic Accident Analysis (Excel)
 
-This project analyzes New York City motor vehicle collision data to identify patterns and trends that may help reduce future traffic accidents.
+## Project Overview
 
-Using Microsoft Excel, the data was cleaned, summarized with PivotTables, and visualized through interactive charts and conditional formatting to highlight high-risk time periods and contributing factors.
+This project analyzes **New York City motor vehicle collision data** to identify patterns and trends that may help reduce future traffic accidents.
 
-The analysis covers accidents occurring between January 1, 2021 and April 19, 2023.
+Using **Microsoft Excel**, the data was cleaned, summarized with PivotTables, and visualized through charts and conditional formatting to identify high-risk time periods and the leading contributing factors to collisions.
 
-Business Problem
-City planners and transportation officials need to understand when and why traffic accidents occur in order to develop targeted safety initiatives.
+The analysis covers accidents occurring between **January 1, 2021 and April 19, 2023**.
 
-The goal of this project is to answer three business questions:
+---
 
--- Are there seasonal patterns in collisions?
--- When are the most dangerous days and hours?
--- What are the leading contributing factors to accidents?
+## Business Problem
 
-Dataset
-Source: NYC Open Data – Motor Vehicle Collisions
-Date Range: January 1, 2021 – April 19, 2023
+Transportation agencies need to understand **when** and **why** traffic collisions occur in order to develop effective safety initiatives.
 
+This project answers the following business questions:
 
-Analysis Performed
-1. Seasonal Collision Trends
-Created a PivotTable showing:
--- Number of collisions by Month
--- Number of collisions by Year
+- Are there seasonal patterns in collisions?
+- When do the most collisions occur?
+- What are the leading contributing factors?
 
-Visualized results using a line chart.
+---
 
-Purpose: Identify seasonal increases or decreases in collisions.
+## Dataset
 
-2. Weekly Collision Patterns
-Created a PivotTable showing:
--- Weekday
--- Hour of Day
--- Number of collisions
+**Source:** NYC Open Data – Motor Vehicle Collisions
 
-Applied conditional formatting to create a heat map highlighting the highest-risk periods.
+**Date Range**
 
-Purpose: Identify the days and times with the greatest collision frequency.
+- January 1, 2021 – April 19, 2023
 
-3. Contributing Factors
-Calculated:
--- Number of collisions by contributing factor
--- Percentage of total collisions
+---
 
-Visualized results using data bars.
+## Tools Used
 
-Purpose: Determine the most common causes of collisions.
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Conditional Formatting
+- Heat Maps
+- Data Bars
+- Sorting & Filtering
+- Basic Data Cleaning
 
-Key Findings
--- Collisions tend to increase until May and June then gradually decline.
--- 2022 started with higher collisions than the previous year but the number dropped in April and stayed lower for the rest of the year compared to the previous year.
--- 2023 is trending lower than 2021 and 2022 to date.
--- Most collisions occur during rush hours, with the most occurring in the evening and the second highest number of collisions in the morning rush hour.
--- Around midnight on weekends is another hot spot for collisions, with almost as many collisions around midnight as during the morning rush hour.
--- Failure to Yield Right-of-Way is the most dangerous contributing factor, the second most common specified cause.
--- Traffic Control Disregarded is the second most dangerous contributing factor but is much less common.
--- Driver Inattention/Distraction is the highest contributing factor but it is not the most dangerous.
+---
 
+## Project Objectives
 
-Skills Demonstrated
--- Data cleaning
--- Data organization
--- PivotTable development
--- Trend analysis
--- Time-series analysis
--- Heat map creation
--- Dashboard visualization
--- Percentage calculations
--- Business insight generation
--- Communicating analytical findings
+### 1. Identify Seasonal Collision Patterns
 
-Project Files:
--- NYC_Traffic_Accident_Analysis.xlsx
--- README.txt
--- Images/
-    -- Seasonal_Trend.jpg
-    -- Day_Hour_Heatmap.jpg
-    -- Contributing_Factor_Bar_Chart.jpg
+Analyze the number of collisions by **month** and **year** using PivotTables and visualize the results with a line chart.
+
+**Deliverables**
+
+- Monthly collision totals
+- Year-over-year comparison
+- Line chart visualization
+- Trend analysis
+
+---
+
+### 2. Visualize Weekly Collision Trends
+
+Analyze collisions by **weekday** and **hour of day** using a PivotTable and create a heat map using conditional formatting.
+
+**Deliverables**
+
+- Weekday/hour PivotTable
+- Heat map visualization
+- Identification of highest-risk time periods
+
+---
+
+### 3. Analyze Contributing Factors
+
+Calculate the percentage of collisions attributed to each contributing factor.
+
+Visualize the results using Excel Data Bars.
+
+**Deliverables**
+
+- Percentage calculations
+- Ranked contributing factors
+- Data bar visualization
+
+---
+
+## Key Findings
+
+- Collisions tend to increase until May and June then gradually decline.
+- The number of collisions has been trending downward YOY since April 2022. 
+- Most collisions occur during rush hours, with the most occurring in the evening and the second highest number of collisions in the morning rush hour.
+- Around midnight on weekends is another hot spot for collisions, with almost as many collisions around midnight as during the morning rush hour.
+- Failure to Yield Right-of-Way is the most dangerous contributing factor, the second most common specified cause.
+- Traffic Control Disregarded is the second most dangerous contributing factor but is much less common.
+- Driver Inattention/Distraction is the highest contributing factor but it is not the most dangerous.
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Analysis
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Conditional Formatting
+- Heat Maps
+- Data Visualization
+- Trend Analysis
+- Business Analysis
+- Analytical Reporting
+- Data-Driven Decision Making
+
+---
+
+## Repository Structure
+
+```
+traffic-accident-analysis-excel/
+│
+├── README.md
+├── NYC Traffic Accident Analysis.xlsx
+├── images/
+│   ├── dashboard.png
+│   ├── seasonal-trend-chart.png
+│   ├── weekday-hour-heatmap.png
+│   └── contributing-factors.png
+
+```
+
